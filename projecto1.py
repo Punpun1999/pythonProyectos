@@ -1,0 +1,1 @@
+lista=['televisor','celular','computadora']
