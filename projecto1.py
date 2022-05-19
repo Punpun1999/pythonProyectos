@@ -19,7 +19,8 @@ while True:
             precio= input ("ingrese el precio del producto= ")
             producto= (nombre,cantidadP,precio)
             print ('############################')
-            if producto in (lista,precio):
+            busca=[producto for producto in lista if producto[0]==nombre]
+            if len(busca)!=0:
                 print ('############################')
                 print("el producto ya esta en la lista ")
                 print('el producto ya tiene precio')
