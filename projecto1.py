@@ -21,7 +21,6 @@ def quitarCarrito(carrito):
         buscar= [compra for compra in  carrito if compra[0].getNombre()== nombre1]
         print ('---------------------------')
         if len(buscar)==0:
-            print (buscar)
             print ('---------------------------')
             print ('el producto ya fue removido')
             print ('---------------------------')    
